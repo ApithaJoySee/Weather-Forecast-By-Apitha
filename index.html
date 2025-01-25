@@ -12,20 +12,26 @@
     <div class="weather-app">
     <header>
     <form >
-        <input type="search" placeholder="Enter a city" required />
-        <input type="submit" value = "search" />
+        <input type="search" placeholder="Enter a city" required class="search-form-input"/>
+        <input type="submit" value = "search" class="search-form-button" />
     </form>
     </header>
     <main>
-        <div>
-    <h1>Paris</h1>
-    <p>
+        <div class="weather-app-data">
+    <div>
+    <h1 class="weather-app-city">Paris</h1>
+    <p class="weather-app-details">
         Saturday 17:53, moderate rain </br>
-        Humidity: 94%, Wind: 3.09km/h
+        Humidity: <strong>94%</strong>, Wind: <strong>3.09km/h</strong>
     </p>
     </div>
-    <div>
-        ☀️℃
+    <div class="weather-app-temperature">
+        <div class="weather-app-temperature-container" >
+        <div class="weather-app-icon">☀️</div>
+        <div class="temperature">12</div>
+        <div class="unit">℃</div>
+        </div>
+    </div>
     </div>
     </main>
     <footer>
@@ -35,5 +41,6 @@
         <a href="https://app.netlify.com/teams/apithajoysee/sites?creator=me">hosted on Netlify</a>
     </footer>
     </div>
+    <script src="src/index.js"></script>
 </body>
 </html>
