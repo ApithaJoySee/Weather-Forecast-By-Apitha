@@ -1,13 +1,5 @@
 body {
-  background-color: aqua;
-  // <uniquifier>: Use a unique and descriptive class name
-  // <weight>: Use a value from 100 to 900
-  .raleway-<uniquifier > {
-    font-family: "Raleway", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  }
+  background-color: #f9f7fd;
 }
 
 .weather-app {
@@ -20,11 +12,11 @@ body {
 }
 
 header {
-  border-bottom: 1px solid;
+  border-bottom: 0px solid;
   padding: 0 0 30px 0;
 }
 .search-form-input {
-  background-color: whitesmoke;
+  background-color: #f1eff5;
   border: none;
   border-radius: 8px;
   width: 80%;
@@ -33,7 +25,7 @@ header {
   padding: 15px 20px;
 }
 .search-form-button {
-  background-color: purple;
+  background-color: #885df1;
   padding: 15px 30px;
   border: none;
   border-radius: 6px;
@@ -54,7 +46,7 @@ header {
   font-weight: 500px;
 }
 .weather-app-details strong {
-  color: pink;
+  color: #f65281;
   font-weight: 500px;
   font-size: 24px;
 }
