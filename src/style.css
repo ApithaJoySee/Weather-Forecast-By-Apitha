@@ -82,8 +82,10 @@ header {
   margin-bottom: 10px;
 }
 .weather-forecast-icon {
-  font-size: 38;
-  text-align: center;
+  width: 88px;
+  display: block;
+  margin: 0 auto;
+  height: 88px;
 }
 .weather-forecast-temperatures {
   text-align: center;
